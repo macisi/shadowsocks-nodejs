@@ -20,7 +20,8 @@
         "ssserver": "./bin/ssserver"
     },
     "scripts": {
-        "test": "cake test"
+        "test": "cake test",
+        "build": "cake build"
     },
     "homepage": "https://github.com/clowwindy/shadowsocks-nodejs",
     "bugs": "https://github.com/clowwindy/shadowsocks-nodejs/issues",
