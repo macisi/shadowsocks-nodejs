@@ -1,6 +1,6 @@
 const merge = (left, right, comparison) => {
   let result = [];
-  while(left.length > 0 && right > 0) {
+  while(left.length > 0 && right.length > 0) {
     if (comparison(left[0], right[0]) <= 0) {
       result.push(left.shift());
     } else {
